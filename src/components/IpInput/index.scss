@@ -1,0 +1,26 @@
+.ip-container {
+    background: #fff;
+    padding: 2px;
+    white-space: nowrap;
+    border: 1px solid #E1E1E5;
+    color: #C1C4CD;
+    &.err-ip {
+        border-color: #FF4750;
+    }
+    &:hover {
+        border-color: #888DA0;
+    }
+    input {
+        border: 0;
+        width: 34px;
+        box-shadow: none;
+        outline: none;
+        padding: 0 4px;
+        color: #2A3036;
+    }
+}
+
+.error-msg {
+    color: #FF4750;
+    margin: 0;
+}
